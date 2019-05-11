@@ -1,2 +1,2 @@
 # Gamers-United
-HTML, CSS &amp; JS - LP2 Class
+HTML & CSS - LP2 Class
