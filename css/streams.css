@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://images2.alphacoders.com/900/900075.png);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-frame{
+    width: 50%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.titulo{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.buttons{
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.button{
+    background-color: transparent;
+    color: white;
+    padding: 2%;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 2px solid white;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span{
+    padding-right: 25px;
+}
+
+.button:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+
+.twitch-stream{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 *{
     margin: 0%;
     padding: 0%;
@@ -5,10 +7,10 @@
 .container{
     width: 100%;
 }
-.imagem-fundo{
-   
+body{
     background-image: url(https://images2.alphacoders.com/900/900075.png);
-    min-height: 1080px;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
 }
 .imagem-jogo{
     float: left;
@@ -26,13 +28,17 @@ header{
     width: 50%;
     margin: 0 auto;
     height: 30px;
+    text-align: center;
 }
 #links{
     float: left;
     font-size: 20px;
 }
 #titulo{
-    color: red;
+    color: crimson;
+    margin-bottom: 15px;
+    font-size: 44px;
+    text-shadow: 1px 1px 3px black;
 }
 #title{
     width: 50%;
@@ -47,6 +53,8 @@ header{
 }
 h1{
    color: white;
+   padding-top: 10px; 
+   padding-bottom: 10px;
 }
 li{
     color: white;
@@ -56,15 +64,50 @@ p{
     font-size: 20px;
     color: white;
 }
-a{
-    padding-left: 26%;
-    font-size: 20px;
-    color: white;
-}
 img{
     width: 250px;
     height: 250px;
 }
 hr{
     clear: both;
+}
+a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+a span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+a:hover span{
+    padding-right: 20px;
+}
+
+a:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+
+#a1{
+    text-align: center;
+}
+
+#a2{
+    float: right;
+    padding-right: 3%;
 }
