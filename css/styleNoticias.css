@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(https://images2.alphacoders.com/900/900075.png);
+}
+
+section{
+    background-color: #0c0c0c;
+    margin: 0 auto;
+    min-height: 1000px;
+    width: 60%;
+}
+.imagem{
+    float: left;
+    padding: 3%;
+}
+.texto{
+    padding: 3%; 
+}
+
+h1{
+    color: white;
+}
+p{
+    color: white;
+    font-size:  20px;
+}
+hr{
+    clear: both;
+}
