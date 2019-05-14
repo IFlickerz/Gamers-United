@@ -23,17 +23,7 @@ body{
     margin: 5%;
     margin-top:10%;
 }
-header{
-    background-color: #0c0c0c;
-    width: 50%;
-    margin: 0 auto;
-    height: 30px;
-    text-align: center;
-}
-#links{
-    float: left;
-    font-size: 20px;
-}
+
 #titulo{
     color: crimson;
     margin-bottom: 15px;
@@ -70,44 +60,4 @@ img{
 }
 hr{
     clear: both;
-}
-a{
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-}
-
-a span{
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-
-a span:after{
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
-
-a:hover span{
-    padding-right: 20px;
-}
-
-a:hover span:after{
-    opacity: 1;
-    right: 0;
-}
-
-#a1{
-    text-align: center;
-}
-
-#a2{
-    float: right;
-    padding-right: 3%;
 }
