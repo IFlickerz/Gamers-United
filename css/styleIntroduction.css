@@ -9,6 +9,7 @@
 }
 body{
     background-image: url(https://images2.alphacoders.com/900/900075.png);
+    background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Roboto', sans-serif;
 }
