@@ -9,7 +9,7 @@ body{
     background-image: url(https://images2.alphacoders.com/900/900075.png);
 }
 
-header{
+#header{
     background-color: #0c0c0c;
     height: 80px;
 }
@@ -18,18 +18,21 @@ header{
     padding: 0% 1% 0% 2%;
 }
 #texto{
-    padding-top: 1%;
+    padding-top: 1.32%;
 }
 
-section{
+#quadro{
     clear: both;
     margin: 0 auto;
     margin-top: 5%;
     border-style: solid;
     border-color: red;
     background-color:#0c0c0c;
-    min-height: 700px;
+    min-height: 300px;
+    max-height: 500px;
     width: 80%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 h1{
@@ -50,4 +53,8 @@ ul{
 }
 li{
     font-size: 38px;
+}
+
+a{
+    color: white;
 }
