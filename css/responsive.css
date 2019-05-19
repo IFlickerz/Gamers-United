@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1380px){
+    #meio, header, .main-class, .main-frame, .twitch-stream, section{
+        width: 95%;
+        transition: 0.5s;
+    }
+    .titulo{
+        padding-bottom: 2%;
+        transition: 0.5s;
+    }
+
+    section{
+        min-height: 1000px; 
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (min-width: 1380px){
+    #meio, header, .main-class, .main-frame, .twitch-stream, section{
+        transition: 0.5s;
+    }
+    .titulo{
+        transition: 0.5s;
+    }
+    section{
+        transition: 0.5s;
+    }
+}

@@ -1,0 +1,62 @@
+#a0{
+    float: left;
+    margin-left: 5%;
+    color: white;
+    font-weight: normal;
+}
+
+#a1{
+    padding-right: 10%;
+    padding-left: 5%;
+    color: white;
+    font-weight: normal;
+}
+
+#a2{
+    padding-left: 10%;
+    padding-right: 5%;
+    color: white;
+    font-weight: normal;
+}
+
+#a3{
+    float: right;
+    margin-right: 5%;
+    color: white;
+    font-weight: normal;
+}
+
+
+
+header{
+    background-color: #0c0c0c;
+    width: 50%;
+    margin: 0 auto;
+    height: 30px;
+    text-align: center;
+}
+
+a span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+a span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+a:hover span{
+    padding-right: 20px;
+}
+
+a:hover span:after{
+    opacity: 1;
+    right: 0;
+}
