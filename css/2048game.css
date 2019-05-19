@@ -30,7 +30,7 @@ html, body {
 body {
   background-image: url(https://images2.alphacoders.com/900/900075.png);
   background-attachment: fixed;
-  min-height: 959px; }
+  min-height: 958px; }
 
 .heading:after {
   content: "";
