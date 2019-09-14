@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 *{
     margin: 0%;  
 }
 body{
     background-image: url(https://images2.alphacoders.com/900/900075.png);
+    font-family: 'Roboto', sans-serif;
 }
 canvas {
     display: block;
