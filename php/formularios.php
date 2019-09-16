@@ -34,6 +34,7 @@
                         break;
                     case 2 :
                         include('dado.php');
+                        break;
                 }
               ?>
             </div>
