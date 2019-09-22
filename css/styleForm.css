@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+    margin: 0px;
+}
+
+body{
+    background-image: url(https://images2.alphacoders.com/900/900075.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.centralizar{
+    color: white;
+    background-color :#0c0c0c; 
+    margin: 100px auto;
+    width: 70%;
+    height: 500px;
+    border: 1px solid red;
+}
+
+aside{
+    font-size: 25px;
+    width: 15%;
+    height: 479px;
+    float: left;
+    padding: 10px;
+    border-right: 3px white solid;
+}
+
+
+#conteudo{
+    float: left;
+    width: 82%;
+    height: 479px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+#conteudo .submit{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#conteudo p{
+    padding: 5px;
+}
+
+aside li{
+    padding: 15px;
+}
+aside a{
+    color: white;
+    text-decoration: none;
+}
+aside a:hover{
+    color: yellow;
+}
+
+.bt{
+    width: 80px;
+    height: 80px;
+    background: black;
+    color: white;
+    font-size: 25px;
+    margin: 5px;
+}
+
+div#numero{
+    border: 3px white solid;
+    margin: 65px auto;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 145px;
+}
+
+@media screen and (max-width: 1919px){
+    .centralizar{
+        margin: 50px auto;
+        height: 400px;
+    }
+    
+    aside{
+        font-size: 20px;
+        width: 18%;
+        height: 379px;
+        padding: 10px;
+    }
+    #conteudo{
+        width: 78%;
+        height: 379px;
+    }
+    div#numero{
+        margin: 30px auto;
+    }
+}
